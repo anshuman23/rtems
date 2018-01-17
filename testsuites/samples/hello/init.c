@@ -22,7 +22,8 @@ static rtems_task Init(
 {
   rtems_print_printer_fprintf_putc(&rtems_test_printer);
   TEST_BEGIN();
-  printf( "Hello World\n" );
+  printf( "Anshuman's Hello World (GSOC 2018!)\n" );
+  printf( "github: anshuman23\n" );
   TEST_END();
   rtems_test_exit( 0 );
 }
